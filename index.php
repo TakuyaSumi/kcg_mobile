@@ -1,36 +1,28 @@
 <?php
 require 'common.inc';
 require 'google-mobile-ana.php';
-
 // トップロゴ設定
 $carryer   = Get_MobileCarryer($generation);
 $flash_flg = Get_MobileFlash($carryer, $generation);
 // What's Newの文章設定
 $str_news  = 'News';
-
-$rec  = '';
-$file = '../kblog/index.i.html';
-$fno  = fopen($file, 'r');
+$rec       = '';
+$file      = '../kblog/index.i.html';
+$fno       = fopen($file, 'r');
 while (!feof($fno)) {
     $rec .= fgets($fno, 32000);
 }
 fclose($fno);
-
-$rec = mb_convert_encoding($rec, "EUC-JP", "SJIS");
-$rec = ereg_replace("\r", "", $rec);
-$rec = ereg_replace("\n", "", $rec);
-
+$rec     = mb_convert_encoding($rec, "EUC-JP", "SJIS");
+$rec     = ereg_replace("\r", "", $rec);
+$rec     = ereg_replace("\n", "", $rec);
 $rec_arr = preg_split("(<h3>|</h3>)", $rec);
-
 if ($rec_arr[1] != '') {
-    $buf = $rec_arr[1];
-    
+    $buf      = $rec_arr[1];
     $str_news = '';
     $flg      = TRUE;
-    
     for ($cnt = 0; $cnt < strlen($buf); $cnt++) {
         $buf2 = substr($buf, $cnt, 1);
-        
         if ($buf2 == '<') {
             $flg = FALSE;
         } elseif ($buf2 == '>') {
@@ -42,7 +34,6 @@ if ($rec_arr[1] != '') {
     }
     $str_news = mb_convert_kana($str_news, 'ak', 'EUC-JP');
 }
-
 Header("Content-Type: text/html;charset=euc-jp");
 ?>
 <html>
@@ -53,6 +44,20 @@ Header("Content-Type: text/html;charset=euc-jp");
 </head>
 
 <body bgcolor="#ffffff" text="#505050" link="#000000" vlink="#000000" style="margin:0;padding:0;">
+<?php
+$ua = $_SERVER['HTTP_USER_AGENT'];
+if (preg_match('/iPhone|Android/', $ua)) {
+    $flag = false;
+    if(isset($_COOKIE['kcg_sppc_toggle'])){
+      if($_COOKIE['kcg_sppc_toggle'] == "on") $flag = true;
+    }
+    if($flag){
+        echo '<div style="text-align:center;"><a href="http://www.kcg.ac.jp/">PC版トップページへ</a></div>';    
+    }else{
+        echo '<div style="text-align:center;"><a href="http://www.kcg.ac.jp/">スマートフォン版トップページへ</a></div>';
+    }
+}
+?>
 <font size="1" color="#505050">
 
 <div align="center">
