@@ -24,6 +24,7 @@ Header("Content-Type: text/html;charset=euc-jp");
 <html>
 <head>
 <title>京都ｺﾝﾋﾟｭｰﾀ学院mobile</title>
+<meta name="viewport" content="width=240">
 <meta http-equiv="Content-Type" content="text/html; charset=euc-jp">
 </head>
 

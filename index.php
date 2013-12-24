@@ -49,9 +49,10 @@ Header("Content-Type: text/html;charset=euc-jp");
 <head>
 <title>京都コンピュータ学院mobile kcg.edu 携帯サイト</title>
 <meta http-equiv="Content-Type" content="text/html; charset=euc-jp">
+<meta name="viewport" content="width=240px">
 </head>
 
-<body bgcolor="#ffffff" text="#505050" link="#000000" vlink="#000000">
+<body bgcolor="#ffffff" text="#505050" link="#000000" vlink="#000000" style="margin:0;padding:0;">
 <font size="1" color="#505050">
 
 <div align="center">
@@ -63,33 +64,33 @@ Header("Content-Type: text/html;charset=euc-jp");
 </div>
 
 <br clear="all">
-<img src="img/icon_tri_r.jpg" align="left"><a href="eve/event.php"><font size="1">ｲﾍﾞﾝﾄ情報</font></a><br clear="all">
-<img src="img/icon_tri_r.jpg" align="left"><a href="eve/event.php#01"><font size="1">12月21日(土)にｵｰﾌﾟﾝｷｬﾝﾊﾟｽを開催します。</font></a><br clear="all">
-<img src="img/icon_tri_r.jpg" align="left"><a href="http://www.kcg.ac.jp/kblog/index.i.html"><font size="1">KCG NEWS</font></a><br clear="all">
-<img src="img/icon_tri_r.jpg" align="left"><a href="http://www.kcg.ac.jp/mobile/skillup/index.php"><font size="1">大学生･大卒者向けｺｰｽ</font></a><br clear="all">
-<img src="img/icon_tri_r.jpg" align="left"><a href="http://www.kcg.ac.jp/mobile/magazine/"><font size="1">KCG MOBILE通信</font></a><br clear="all">
+<img src="img/icon_tri_r.jpg" align="left" style="padding-left:5px;"><a href="eve/event.php"><font size="1">ｲﾍﾞﾝﾄ情報</font></a><br clear="all">
+<img src="img/icon_tri_r.jpg" align="left" style="padding-left:5px;"><a href="eve/event.php#01"><font size="1">12月21日(土)にｵｰﾌﾟﾝｷｬﾝﾊﾟｽを開催します。</font></a><br clear="all">
+<img src="img/icon_tri_r.jpg" align="left" style="padding-left:5px;"><a href="http://www.kcg.ac.jp/kblog/index.i.html"><font size="1">KCG NEWS</font></a><br clear="all">
+<img src="img/icon_tri_r.jpg" align="left" style="padding-left:5px;"><a href="http://www.kcg.ac.jp/mobile/skillup/index.php"><font size="1">大学生･大卒者向けｺｰｽ</font></a><br clear="all">
+<img src="img/icon_tri_r.jpg" align="left" style="padding-left:5px;"><a href="http://www.kcg.ac.jp/mobile/magazine/"><font size="1">KCG MOBILE通信</font></a><br clear="all">
 
 <div align="center">
 <img src="img/title_02.jpg" alt="KCGのここがすごい!">
 </div>
-<img src="img/icon_tri_r.jpg" align="left"><a href="fea/feature.html"><font size="1">KCGのここがすごい!</font></a><br clear="all">
-<img src="img/icon_tri_r.jpg" align="left"><a href="fea/0930/"><font size="1">授業開始時間9:30へ</font></a><br clear="all">
+<img src="img/icon_tri_r.jpg" align="left" style="padding-left:5px;"><a href="fea/feature.html"><font size="1">KCGのここがすごい!</font></a><br clear="all">
+<img src="img/icon_tri_r.jpg" align="left" style="padding-left:5px;"><a href="fea/0930/"><font size="1">授業開始時間9:30へ</font></a><br clear="all">
 
 <div align="center">
 <img src="img/title_03.jpg" alt="学科紹介">
 </div>
-<img src="img/icon_tri_r.jpg" align="left"><a href="dep/become.html"><font size="1">「なりたい自分」で選ぶ</font></a><br clear="all">
-<img src="img/icon_tri_r.jpg" align="left"><a href="dep/graduate.html"><font size="1">活躍する卒業生を見る</font></a><br clear="all">
-<img src="img/icon_tri_r.jpg" align="left"><a href="dep/department.html"><font size="1">学科一覧から選ぶ</font></a><br clear="all">
+<img src="img/icon_tri_r.jpg" align="left" style="padding-left:5px;"><a href="dep/become.html"><font size="1">「なりたい自分」で選ぶ</font></a><br clear="all">
+<img src="img/icon_tri_r.jpg" align="left" style="padding-left:5px;"><a href="dep/graduate.html"><font size="1">活躍する卒業生を見る</font></a><br clear="all">
+<img src="img/icon_tri_r.jpg" align="left" style="padding-left:5px;"><a href="dep/department.html"><font size="1">学科一覧から選ぶ</font></a><br clear="all">
 
 <div align="center">
 <img src="img/title_05.jpg">
 </div>
-<img src="img/icon_tri_r.jpg" align="left"><a href="eve/event.php"><font size="1">ｲﾍﾞﾝﾄ情報</font></a><br clear="all">
-<img src="img/icon_tri_r.jpg" align="left"><a href="https://support.kcg.edu/kcg/mobile/req/req_form.php"><font size="1">資料請求</font></a><br clear="all">
-<img src="img/icon_tri_r.jpg" align="left"><a href="acc/access.html"><font size="1">ｱｸｾｽMAP</font></a><br clear="all">
-<img src="img/icon_tri_r.jpg" align="left"><a href="https://king.kcg.ac.jp/campus/k/"><font size="1">在学生専用ﾍﾟｰｼﾞ(KING-LMS)</font></a><br clear="all">
-<img src="img/icon_tri_r.jpg" align="left"><a href="cnt/contact.html"><font size="1">お問い合わせ</font></a><br clear="all">
+<img src="img/icon_tri_r.jpg" align="left" style="padding-left:5px;"><a href="eve/event.php"><font size="1">ｲﾍﾞﾝﾄ情報</font></a><br clear="all">
+<img src="img/icon_tri_r.jpg" align="left" style="padding-left:5px;"><a href="https://support.kcg.edu/kcg/mobile/req/req_form.php"><font size="1">資料請求</font></a><br clear="all">
+<img src="img/icon_tri_r.jpg" align="left" style="padding-left:5px;"><a href="acc/access.html"><font size="1">ｱｸｾｽMAP</font></a><br clear="all">
+<img src="img/icon_tri_r.jpg" align="left" style="padding-left:5px;"><a href="https://king.kcg.ac.jp/campus/k/"><font size="1">在学生専用ﾍﾟｰｼﾞ(KING-LMS)</font></a><br clear="all">
+<img src="img/icon_tri_r.jpg" align="left" style="padding-left:5px;"><a href="cnt/contact.html"><font size="1">お問い合わせ</font></a><br clear="all">
 <br />
 <div align="center">
 <a href="tel:0120988680"><img src="img/freecalltel.gif"></a>
