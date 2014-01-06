@@ -70,7 +70,7 @@ if (preg_match('/iPhone|Android/', $ua)) {
 
 <br clear="all">
 <img src="img/icon_tri_r.jpg" align="left" style="padding-left:5px;"><a href="eve/event.php"><font size="1">ｲﾍﾞﾝﾄ情報</font></a><br clear="all">
-<img src="img/icon_tri_r.jpg" align="left" style="padding-left:5px;"><a href="eve/event.php#01"><font size="1">12月21日(土)にｵｰﾌﾟﾝｷｬﾝﾊﾟｽを開催します。</font></a><br clear="all">
+<img src="img/icon_tri_r.jpg" align="left" style="padding-left:5px;"><a href="eve/event.php#01"><font size="1">1月25日(土)にｵｰﾌﾟﾝｷｬﾝﾊﾟｽを開催します。</font></a><br clear="all">
 <img src="img/icon_tri_r.jpg" align="left" style="padding-left:5px;"><a href="http://www.kcg.ac.jp/kblog/index.i.html"><font size="1">KCG NEWS</font></a><br clear="all">
 <img src="img/icon_tri_r.jpg" align="left" style="padding-left:5px;"><a href="http://www.kcg.ac.jp/mobile/skillup/index.php"><font size="1">大学生･大卒者向けｺｰｽ</font></a><br clear="all">
 <img src="img/icon_tri_r.jpg" align="left" style="padding-left:5px;"><a href="http://www.kcg.ac.jp/mobile/magazine/"><font size="1">KCG MOBILE通信</font></a><br clear="all">
